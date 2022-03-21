@@ -73,26 +73,21 @@ function App() {
       ]
     }
   ]
+
+  //my new functional component here 
+  function buttonMessage() {
+    alert('Item added to cart.');
+
+
   return (
     <div className="App">
       <MenuApp data={menuData}></MenuApp>
     </div>
   );
 }
+}
 
-  //my new functional component here 
-  function buttonMessage() {
-    alert('Item added to cart.');
   
-
-  return (
-    <button onClick={buttonMessage}>
-      something here?
-      </button>
-  );
-  }
-
-
 
 export default App;  
 

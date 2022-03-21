@@ -77,7 +77,7 @@ function App() {
   //my new functional component here 
   function buttonMessage() {
     alert('Item added to cart.');
-
+  }
 
   return (
     <div className="App">
@@ -85,7 +85,7 @@ function App() {
     </div>
   );
 }
-}
+
 
   
 

@@ -77,7 +77,7 @@ function App() {
     <div className="App">
       <MenuApp data={menuData}></MenuApp>
     </div>
-  )
+  );
 //}
 
 //my new functional component here 

@@ -81,17 +81,17 @@ function App() {
 }
 
   //my new functional component here 
-
+function App() {
   function buttonMessage() {
     alert('Item added to cart.');
-  
+  }
 
   return (
     <button onClick={buttonMessage}>
       something here?
       </button>
   );
-  } 
+} 
 
 
 

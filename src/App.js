@@ -80,7 +80,7 @@ function App() {
   );
 //}
 
-//my new functional component here 
+  //my new functional component here 
 
   function buttonMessage() {
     alert('Item added to cart.');
@@ -91,7 +91,7 @@ function App() {
       something here?
       </button>
   );
-}
+} 
 
 
 

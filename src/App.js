@@ -78,10 +78,10 @@ function App() {
       <MenuApp data={menuData}></MenuApp>
     </div>
   )
-}
+//}
 
 //my new functional component here 
-function App() {
+
   function buttonMessage() {
     alert('Item added to cart.');
   }

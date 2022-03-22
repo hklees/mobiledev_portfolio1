@@ -69,7 +69,7 @@ function App() {
           itemPrice: "5",
           itemName: "Cappuccino",
           itemDescription: "Steamed milk with two ristretto shots of espresso.",
-        }
+        },
       ]
     }
   ]

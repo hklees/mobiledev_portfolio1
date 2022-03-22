@@ -1,4 +1,4 @@
-//second functional component
+//second functional component that makes dietary text 
 
 function AddOn() {
     return (

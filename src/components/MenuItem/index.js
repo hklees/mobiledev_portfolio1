@@ -9,8 +9,7 @@ export default class MenuItem extends React.Component {
                 <h2>{this.props.itemName}</h2>
                 <p>{this.props.itemDescription}</p>
                 <p>{this.props.itemPairing}</p>
-                <button onClick={ButtonMessage}>Add to Cart</button>
-
+                {/* <button>Add to Cart </button> */}
             </div>
         )
     }

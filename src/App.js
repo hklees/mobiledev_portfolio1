@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import "./App.css"
 //import Menu from "./components/Menu" //i orginally had this
 import MenuApp from "./components/MenuApp"
+import ButtonMessage from ".components/MenuItem"
 
 function App() {
   let menuData = [
@@ -94,28 +95,28 @@ function App() {
 //   );
 // }
 
-function ButtonMessage() {
-  const [cart, setCart] =
-  useState(true);
+// function ButtonMessage() {
+//   const [cart, setCart] =
+//   useState(true);
 
-  return (
-    <div className="buttonMessage">
-      { 
-        ( cart
-        ?
-          <>
-      <button onClick={()=> {setCart(false)}}>Add to Cart </button>
-      </>
-      :
-        alert('Item added to cart')
-      )
-    }
-    </div>
-  );
-}
+//   return (
+//     <div className="buttonMessage">
+//       { 
+//         ( cart
+//         ?
+//           <>
+//       <button onClick={()=> {setCart(false)}}>Add to Cart </button>
+//       </>
+//       :
+//         alert('Item added to cart')
+//       )
+//     }
+//     </div>
+//   );
+// }
 
   
-//export default App;  //original
+export default App;  //original
 //export ButtonMessage;
 //export App;  
-export default {App, ButtonMessage}
+//export default {App, ButtonMessage}

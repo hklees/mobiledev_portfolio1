@@ -85,9 +85,13 @@ function App() {
 //my new functional component here 
   function buttonMessage() {
     alert('Item added to cart.');
-  
 
 
+return (
+  <button onClick={buttonMessage}>
+  Item added to cart
+  </button>
+);
 }
 
   

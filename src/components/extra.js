@@ -1,9 +1,8 @@
 import React, {useState} from "react"; 
 
-
+//new functional component for button click
 function ButtonMessage() {
-    const [count, setCount] =
-    useState(0);
+    const [count, setCount] = useState(0);
   
     return (
 //       <div className="buttonMessage">
@@ -22,8 +21,8 @@ function ButtonMessage() {
 //   }
     <div>
         <p> Item has been added to cart {count} times.</p>
-        <button> onClick={() => setCount (count + 1)}
-        Add to Cart</button>
+        <button onClick={() => setCount (count + 1)}>
+        Add to Cart </button>
     </div>
     );
 }

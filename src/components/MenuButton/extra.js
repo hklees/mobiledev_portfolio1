@@ -1,4 +1,7 @@
-import React, {useState} from "react"; 
+//this is to display how many times an item was added to cart when the
+//user clicks the Add to Cart button
+
+import React, {useState} from 'react'; 
 
 //new functional component for button click
 function ButtonMessage() {

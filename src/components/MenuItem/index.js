@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonMessage from '../MenuButton' //extra code
 
+
 export default class MenuItem extends React.Component {
     render() {
         return (
@@ -8,7 +9,7 @@ export default class MenuItem extends React.Component {
                 <p>${this.props.itemPrice}</p>
                 <h2>{this.props.itemName}</h2>
                 <p>{this.props.itemDescription}</p>
-                <p>{this.props.itemPairing}</p>
+                <p>{this.props.itemPairing}</p> 
                 <ButtonMessage></ButtonMessage>
                 {/* <button>Add to Cart </button> */}
             </div>

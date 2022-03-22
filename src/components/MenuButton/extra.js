@@ -24,7 +24,7 @@ function ButtonMessage() {
 //   }
     <div>
         <p> Item has been added to cart {count} times.</p>
-        <button onClick={() => setCount (count + 1)}>
+        <button onClick = {() => setCount (count + 1)}>
         Add to Cart </button>
     </div>
     );

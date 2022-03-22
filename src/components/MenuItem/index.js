@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonMessage from '../MenuButton' 
 //import ButtonMessage from '../MenuButton' //extra code
+import AddOn from '../MenuAddon'
 
 
 export default class MenuItem extends React.Component {

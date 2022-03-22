@@ -83,18 +83,38 @@ function App() {
 }
  
 //my new functional component here 
-function buttonMessage() {
-  alert('Item added to cart.');
+// function buttonMessage() {
+//   alert('Item added to cart.');
 
-  
+
+//   return (
+//     <button onClick={buttonMessage}>
+//       Item added to cart
+//     </button>
+//   );
+// }
+
+function ButtonMessage() {
+  const [cart, setCart] =
+  useState(true);
+
   return (
-    <button onClick={buttonMessage}>
-      Item added to cart
-    </button>
+    <div className="buttonMessage">
+      { 
+        ( cart
+        ?
+          <>
+      <button onClick={()=> {setCart(false)}}>Add to Cart </button>
+      </>
+      :
+        alert('Item added to cart')
+      )
+    }
+    </div>
   );
 }
 
   
-
-export default App;  
-
+//export buttonMessage;
+//export default App;  
+//export App;  

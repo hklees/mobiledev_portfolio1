@@ -115,6 +115,7 @@ function ButtonMessage() {
 }
 
   
-//export buttonMessage;
-//export default App;  
+//export default App;  //original
+//export ButtonMessage;
 //export App;  
+export default {App, ButtonMessage}

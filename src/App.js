@@ -73,9 +73,6 @@ function App() {
       ]
     }
   ]
-  //my new functional component here 
-  function buttonMessage() {
-    alert('Item added to cart.');
   
   
     return (
@@ -83,11 +80,12 @@ function App() {
       <MenuApp data={menuData}></MenuApp>
     </div>
   );
-
-  
-  }
+}
  
-
+//my new functional component here 
+  function buttonMessage() {
+    alert('Item added to cart.');
+  
 
 
 }

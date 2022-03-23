@@ -6,3 +6,4 @@ Other things I changed:
 I added a "Suggested Pairing" text under each menu item by adding “itemPairing:” and a description under each item in the App.js file and this.props.itemPairing inside export default MenuItem in the MenuItem index.js file. I also changed the appearance of the page by adding CSS in the index.css file, changing the font-family, background color and styling to the buttons. 
 
 Link to GitHub pages version: https://hklees.github.io/mobiledev_portfolio1/ 
+*** this page is published, but does not appear in my browser. 

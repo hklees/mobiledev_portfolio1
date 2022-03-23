@@ -1,6 +1,6 @@
 import React from 'react'
 import AddOn from '../MenuAddon'
-import ButtonMessage from '../MenuButton' 
+import ButtonClick from '../MenuButton' 
 
 //import ButtonMessage from '../MenuButton' //extra code
 //import AddOn from '../MenuAddon'
@@ -14,7 +14,7 @@ export default class MenuItem extends React.Component {
                 <h2>{this.props.itemName}</h2>
                 <p>{this.props.itemDescription}</p>
                 <p>{this.props.itemPairing}</p> 
-                <ButtonMessage></ButtonMessage>
+                <ButtonClick></ButtonClick>
                 <AddOn></AddOn>
                 {/* <button>Add to Cart </button> */}
             </div>

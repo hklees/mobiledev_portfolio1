@@ -4,11 +4,11 @@
 import React, {useState} from 'react'; 
 
 //new functional component for button click
-function ButtonMessage() {
+function ButtonClick() {
     const [count, setCount] = useState(0);
   
     return (
-//       <div className="buttonMessage">
+//       <div className="buttonClick">
 //         { 
 //           ( cart
 //           ?
@@ -30,4 +30,4 @@ function ButtonMessage() {
     );
 }
 
-  export default ButtonMessage;
+  export default ButtonClick;
